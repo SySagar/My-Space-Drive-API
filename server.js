@@ -127,6 +127,6 @@ app.post('/', (req,res)=>{
 
 })
 
-app.listen(3000 || process.env.url,()=>{
+app.listen(3000 || process.env.port,()=>{
     console.log("listeing");
 })
